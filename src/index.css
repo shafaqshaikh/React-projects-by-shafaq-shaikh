@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin : 0;
+  padding  : 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: sans-serif;
+
+}
+
+.App{
+  background-image: url(https://static.toiimg.com/photo/70291618/GettyImages-497686593-1.jpg?width=748&resize=4);
+background-size: cover;
+background-position: bottom;
+min-height: 100vh;
+}
+
+.search_box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search_box .search_bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(255 , 255 , 255 , 0.9);
+  border-radius: 30px;
+  margin-bottom: 30px;
+  border : none;
+  appearance: none;
+}
+
+.weather-box{
+  margin: 200px;
+  font-size: 30px;
 }
